@@ -2,18 +2,52 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>五子棋</title>
+	<style type="text/css">
+			.checkCardStatus-container {
+				width: 100%;
+				min-width: 1200px;
+				color: #333;
+			}
+			
+			.checkCardStatus-container .wrap {
+				width: 1200px;
+				margin: 0 auto;
+				text-align: center;
+				padding-top: 100px;
+			}
+			
+			.checkCardStatus-container .wrap h6 {
+				font-size: 28px;
+				margin-bottom: 30px;
+			}
+			
+			.checkCardStatus-container .wrap .checkBox {
+				width: 200px;
+				margin: 0 auto;
+				position: relative;
+			}
+
+			#submit {
+				display: block;
+				width: 200px;
+				line-height: 30px;
+				background-color: gray;
+				color: white;
+				text-decoration: none;
+				margin-bottom: 20px;
+			}
+	</style>
 </head>
 <body>
-	<div>
-		<a href="withman.html">
-			<div class="icon">
-				<img src="images/logo.png"></div>
-			<h4 class="title">操作便利</h4>
-		</a>
+<div class="checkCardStatus-container">
+	<div class="wrap">
+		<h6>五子棋</h6>
+		<div class="checkBox">
+			<a href="withman.html" id="submit">人人对战</a>
+			<a href="withcomputer.html" id="submit">人机对战</a>
+		</div>
 	</div>
-
-	<a href="withcomputer.html"></a>
-
+</div>
 </body>
 </html>
